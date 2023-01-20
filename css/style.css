@@ -246,7 +246,8 @@ h1, h2, h3, h4, h5,
 
 /* Navbar */
 .site-navbar {
-    margin-bottom: 0px;
+    padding-top: 0 !important;
+    margin-bottom: 0;
     z-index: 1999;
     position: absolute;
     width: 100%;
@@ -1211,4 +1212,8 @@ figure img {
 
 .dropdown-item:hover {
     background-color: #343a40;
+}
+
+.tradingview-widget-copyright {
+    display: none;
 }
